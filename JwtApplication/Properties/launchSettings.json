@@ -29,4 +29,5 @@
   }
 }
 
+//Lo quité para que lanzara a Url de Swagger
 //"launchUrl": "swagger",
