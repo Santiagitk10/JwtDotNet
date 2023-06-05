@@ -12,7 +12,7 @@
     "JwtApplication": {
       "commandName": "Project",
       "dotnetRunMessages": true,
-      "launchBrowser": true,
+      "launchBrowser": false,
       "applicationUrl": "http://localhost:8000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
@@ -29,5 +29,5 @@
   }
 }
 
-//Lo quité para que lanzara a Url de Swagger
+//Lo quité para que no lanzara a Url de Swagger
 //"launchUrl": "swagger",

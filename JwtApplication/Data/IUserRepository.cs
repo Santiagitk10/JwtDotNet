@@ -1,6 +1,13 @@
-﻿namespace JwtApplication.Data
+﻿using JwtApplication.Models;
+
+namespace JwtApplication.Data
 {
     public interface IUserRepository
     {
+        User Create(User user);
+
+        User GetByEmail(string email);
+
+        User GetById(int id);
     }
 }
