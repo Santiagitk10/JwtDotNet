@@ -1,5 +1,7 @@
 # JwtDotNet
 
+https://www.youtube.com/watch?v=WNKwdgr34fA&list=PLlameCF3cMEvk_3QFm_GgJ-H4akG0V2jM
+
 
 - Paquetes para Instalar Entity Framework:
 
@@ -34,4 +36,19 @@ dotnet ef migrations remove
 - Para hacer que las migraciones se vean reflejadas en la base de datos
 
 dotnet ef database update
+
+- Paquete para hacer encriptación de la contraseña
+
+BCrypt.Net-Next
+
+- Paquete de JWT
+
+System.IdentityModel.Tokens.Jwt
+
+- Paquete CORS
+
+Microsoft.AspNetCore.Cors
+
+
+
 
