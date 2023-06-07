@@ -15,7 +15,7 @@ namespace JwtApplication.Data
         {
             _context.Users.Add(user);
             //Me retorna el id del usuario guardado, lo asigno al usuario que guardé y lo retorno
-            user.Id = _context.SaveChanges();
+            _context.SaveChanges();
             return user;
         }
 
